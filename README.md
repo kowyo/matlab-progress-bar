@@ -6,7 +6,7 @@ Finally, a progress bar for MATLAB!
 
 ## Usage
 
-put the `progressbar.m` file in your MATLAB path, and use it like this:
+Please ensure that the `progressbar.m` file is located within your MATLAB path. The following is an example demonstrating its usage:
 
 ```matlab
 for i = 1:100
@@ -17,6 +17,6 @@ end
 
 ## Why Did I Write This?
 
-I couldn't find a simple progress bar for MATLAB that I could use in my scripts, so I wrote one. It's simple, and it works.
+I couldn't find a simple progress bar for MATLAB that I could integrate easily into my scripts, so I wrote one. It's simple, and it works.
 
-Instead of waitbars, which are annoying and block the MATLAB window, this progress bar is displayed in the command window, and it doesn't block the execution of the script.
+Instead of waitbar, which blocks the MATLAB window, this progress bar is displayed in the command window, and it doesn't block the execution of the script.
