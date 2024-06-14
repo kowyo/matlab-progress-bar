@@ -14,3 +14,8 @@ function progressbar(step, total)
     end
     progressBarString = sprintf('progress: %s %.2f%%', progressBar, percentComplete);
     fprintf('\r%s', progressBarString);
+
+    if step == total
+        fprintf('\n'); % to make the output more aesthetics
+    end
+    
