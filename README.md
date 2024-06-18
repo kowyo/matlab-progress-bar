@@ -1,6 +1,8 @@
 # MATLAB Progress Bar
 
-Finally, a progress bar for MATLAB!
+[![View matlab-progress-bar on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/167996-matlab-progress-bar)
+
+A simple progress bar for MATLAB.
 
 ![](demo.gif)
 
